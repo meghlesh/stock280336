@@ -27,12 +27,15 @@ SECRET_KEY = 'django-insecure-lc)k*zayp4c2jc-d$v)w12+^3bu4+n&1&h+4p@you@*=iuyu2&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "api-sms-be-cddgg8d5euh3ckhg.southindia-01.azurewebsites.net"
+    "api-sms-be-cddgg8d5euh3ckhg.southindia-01.azurewebsites.net",
+    "cwsinventory.in",
+    "www.cwsinventory.in"
    ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://api-sms-be-cddgg8d5euh3ckhg.southindia-01.azurewebsites.net",
-    "https://app-sms-fe-f5bbgja2fzdwe3hk.southindia-01.azurewebsites.net"
+   "api-sms-be-cddgg8d5euh3ckhg.southindia-01.azurewebsites.net",
+    "cwsinventory.in",
+    "www.cwsinventory.in"
 ]
 
 #ALLOWED_HOSTS = [ ]
